@@ -1,16 +1,38 @@
-## Hi there 👋
+# 🧠 [JDG Software Development]
 
-<!--
-**JDGSoftwareDevelopment/JDGSoftwareDevelopment** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to **[JDG Software Development]**, your one-stop solution for web scraping, custom software, automation tools, and web app development. We specialise in building scalable and efficient solutions tailored to your unique needs.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👋 About Us
+
+At **[JDG Software Development]**, we believe in making complex tasks simple through elegant and robust software.  
+We offer:
+
+- 🌐 Web scraping bots and data pipelines
+- 🛠️ Custom desktop and web software
+- 📊 Dashboards, automation, and internal tools
+- 🔒 Browser automation with anti-bot bypass
+- ☁️ Full-stack web apps with modern frameworks
+
+> Whether you're a solo founder, startup, or enterprise, we deliver results that work.
+
+**Founder**: [Joshua David Golafshan]  
+**Location**: [Sydney, AUS]  
+**Email**: [JDGSoftwareDevelopment@outlook.com]  
+**Website**: [https://yourcompany.com](https://yourcompany.com)
+
+---
+
+## 🛠️ Prerequisites
+
+Before getting started, you need to install **Git** and **Python (if required)** on your machine.
+
+### 🔧 Install Git
+
+#### 🪟 Windows
+1. Download Git from: https://git-scm.com/download/win
+2. Run the installer and follow the setup prompts.
+3. Confirm installation:
+```bash
+git --version
