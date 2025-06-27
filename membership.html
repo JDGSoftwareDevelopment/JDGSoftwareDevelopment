@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Developer Support Plans</title>
+  <style>
+    :root {
+      --primary: #2c7a7b;
+      --accent: #f59e0b;
+      --text-dark: #1f2937;
+      --text-light: #ffffff;
+      --bg: #f9fafb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--primary), #1d4f4f);
+      color: var(--text-light);
+      padding: 2rem 1rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      position: relative;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .card.featured {
+      border: 2px solid var(--accent);
+    }
+
+    .card.featured::before {
+      content: "Most Popular";
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: var(--accent);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: bold;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      font-size: 1.6rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: #4b5563;
+      margin-bottom: 1.2rem;
+    }
+
+    .card .price {
+      font-size: 2rem;
+      color: #111827;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+
+    .card ul {
+      list-style: none;
+      margin-bottom: 1.8rem;
+      text-align: left;
+      padding: 0;
+      flex-grow: 1; /* so ul expands to fill vertical space */
+    }
+
+    .card ul li {
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      position: relative;
+      color: #374151;
+    }
+
+    .card ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    /* Button container inside each card for inline buttons */
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .button-row button {
+      flex: 1 1 auto;
+      min-width: 120px;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      border: none;
+      background-color: var(--primary);
+      color: var(--text-light);
+      font-weight: 600;
+      transition: background-color 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .button-row button:hover {
+      background-color: #225e5e;
+    }
+
+    footer {
+      background-color: #1f2937;
+      color: var(--text-light);
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+
+    @media (min-width: 1080px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .card .price {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Developer Support Plans</h1>
+    <p>Proactive fixes, smooth delivery, and peace of mind</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Fix-It Plan</h2>
+      <p>Basic monthly support for occasional issues</p>
+      <p class="price">$29 / month</p>
+      <ul>
+        <li>Fix up to 3 small issues per month</li>
+        <li>Delivered within 3 business days</li>
+        <li>I monitor your site and reach out when issues arise</li>
+        <li>Fixes sent via email or shared folder</li>
+        <li>Monthly summary of what was fixed</li>
+      </ul>
+      <div class="button-row">
+        <button>Start Fix-It</button>
+      </div>
+    </div>
+
+    <div class="card featured">
+      <h2>AutoFix Plan</h2>
+      <p>Faster fixes and automated delivery</p>
+      <p class="price">$89 / month</p>
+      <ul>
+        <li>Everything in the Fix-It Plan</li>
+        <li>Fixes completed within 12 hours</li>
+        <li>I get notified instantly when an error happens</li>
+        <li>Fixes delivered through a private GitHub folder</li>
+        <li>No zip files — updates are always current and organized</li>
+      </ul>
+      <div class="button-row">
+        <button>Start AutoFix</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>FullStack Guardian</h2>
+      <p>Complete, worry-free support and proactive improvements</p>
+      <p class="price">$199 / month</p>
+      <ul>
+        <li>Everything in AutoFix</li>
+        <li>Unlimited small fixes each month</li>
+        <li>One custom-built script or tool per month</li>
+        <li>Monthly audit of your code, app, or site</li>
+        <li>Direct chat support for quick questions</li>
+      </ul>
+      <div class="button-row">
+        <button>Get Guardian</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 DevOps Support by Joshua David Golafshan. All rights reserved.
+  </footer>
+</body>
+</html>
