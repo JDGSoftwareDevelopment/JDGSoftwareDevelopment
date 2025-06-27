@@ -18,8 +18,11 @@ We offer:
 > Whether you're a solo founder, startup, or enterprise, we deliver results that work.
 
 **Founder**: Joshua David Golafshan
+
 **Location**: Sydney, Australia
+
 **Email**: JDGSoftwareDevelopment@outlook.com
+
 **Website**: [View Our Plans](https://jdgsoftwaredevelopment.github.io/JDGSoftwareDevelopment/)
 
 ---
