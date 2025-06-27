@@ -17,9 +17,9 @@ We offer:
 
 > Whether you're a solo founder, startup, or enterprise, we deliver results that work.
 
-**Founder**: [Joshua David Golafshan]  
-**Location**: [Sydney, AUS]  
-**Email**: [JDGSoftwareDevelopment@outlook.com]  
+**Founder**: Joshua David Golafshan
+**Location**: Sydney, Australia
+**Email**: JDGSoftwareDevelopment@outlook.com
 **Website**: [https://yourcompany.com](https://yourcompany.com)
 
 ---
