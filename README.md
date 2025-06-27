@@ -20,7 +20,7 @@ We offer:
 **Founder**: Joshua David Golafshan
 **Location**: Sydney, Australia
 **Email**: JDGSoftwareDevelopment@outlook.com
-**Website**: [https://yourcompany.com](https://yourcompany.com)
+**Website**: [View Our Plans](https://jdgsoftwaredevelopment.github.io/JDGSoftwareDevelopment/)
 
 ---
 
