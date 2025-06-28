@@ -37,4 +37,5 @@ Before getting started, you need to install **Git** and **Python (if required)**
 3. Confirm installation:
 ```bash
 git --version
+```
 4. Clone the repo, from a given url
