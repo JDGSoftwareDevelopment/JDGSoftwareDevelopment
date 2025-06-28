@@ -1,4 +1,4 @@
-# 🧠 JDG Software Development
+# 🏢 JDG Software Development
 
 Welcome to **JDG Software Development**, your one-stop solution for web scraping, custom software, automation tools, and web app development. We specialise in building scalable and efficient solutions tailored to your unique needs.
 
